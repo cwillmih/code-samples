@@ -67,7 +67,7 @@ I believe the space recommendation after a control structure keyword, should be 
 
 ```php
 /**
- *  One space after control structure.
+ *  One space after control structure keyword.
  */
 function some_function() {
 	while (true) {	// Eww.
@@ -78,7 +78,7 @@ function some_function() {
 
 ```php
 /**
- *  Opening brace where it feels better..
+ *  No space after control structure keyword.
  */
 function some_function() {
 	while(true) {	// Just like that.
